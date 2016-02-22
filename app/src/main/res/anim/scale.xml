@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        fromXScale:起始x轴坐标
+        toXScale:止x轴坐标
+        fromYScale:始y轴坐标
+        toYScale:止y轴坐标
+        pivotX:X轴的坐标
+        pivotY:Y轴的坐标
+        duration:动画时间
+    -->
+
+    <scale
+        android:fromXScale="0"
+        android:toXScale="1"
+        android:fromYScale="0"
+        android:toYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="3000"/>
+
+</set>
