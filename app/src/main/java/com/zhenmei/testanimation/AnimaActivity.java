@@ -8,6 +8,9 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 
+/**
+ * 动画练习，在xml文件中实现动画
+ */
 public class AnimaActivity extends Activity implements View.OnClickListener {
 
     @Override

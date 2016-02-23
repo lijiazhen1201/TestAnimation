@@ -13,6 +13,9 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 
+/**
+ * 动画练习，在代码中实现动画
+ */
 public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
