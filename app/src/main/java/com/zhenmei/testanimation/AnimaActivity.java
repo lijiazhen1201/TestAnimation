@@ -1,6 +1,7 @@
 package com.zhenmei.testanimation;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -67,7 +68,8 @@ public class AnimaActivity extends Activity implements View.OnClickListener {
                 animation = AnimationUtils.loadAnimation(this, R.anim.anima);
                 break;
             case R.id.btn_activity:
-
+                startActivity(new Intent(this,FrameAnimaActivity.class));
+                finish();
                 break;
             default:
                 break;
